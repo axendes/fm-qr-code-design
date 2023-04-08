@@ -14,7 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [github]https://hiofabien.github.io/qr-code-card-design/
+- Live Site URL: [github](https://hiofabien.github.io/qr-code-card-design/)
 
 ## My process
 
