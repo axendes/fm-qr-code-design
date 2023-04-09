@@ -1,25 +1,14 @@
-<h1>Frontend Mentor - QR Code Component Solution</h1>
+# Frontend Mentor - QR Code Component Solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-## Table of contents
+## Links
 
-- [Overview](#overview)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+> Solution URL: [Add solution URL here](https://your-solution-url.com)  
+> Live Site URL: [GitHub](https://hiofabien.github.io/qr-code-card-design/)
 
-## Overview
+## Built with
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [github](https://hiofabien.github.io/qr-code-card-design/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
+> **Semantic HTML5 markup  
+> CSS custom properties  
+> CSS Grid**
