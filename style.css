@@ -18,8 +18,8 @@
     --opacity: .2;
 }
 
-body {
-    height: 100vh;
+.body {
+    min-height: 100svh;
     display: grid;
     place-content: center;
     gap: 20px;
@@ -30,10 +30,10 @@ body {
 .card {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
-    width: 400px;
-    border-radius: 1em;
-    padding: 1.2em 1.2em 3em;
+    gap: 20px;
+    width: 350px;
+    border-radius: 1.5rem;
+    padding: 1.2rem 1.2rem 2.5rem;
     text-align: center;
     user-select: none;
 
@@ -43,35 +43,42 @@ body {
 
 .qr-code {
     width: 100%;
-    border-radius: inherit;
+    border-radius: 1rem;
+
+    user-select: none;
+    pointer-events: none;
 }
 
 .header {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.5rem;
     padding: 0 .6em;
+    margin-top: .25rem;
 
     color: var(--dark-blue);
 }
 
 .desc {
-    font-size: 20px;
-    padding: 0 .6em;
+    font-size: 1.05rem;
+    padding: 0 .8em;
     
     color: hsl(var(--grayish-blue));
 }
 
 .attribution {
-    font-size: 11px;
+    position: absolute;
+    inset: auto 0 1rem 0;
+    font-size: 1rem;
     text-align: center;
-    color: gray;
+    color: hsl(0, 0%, 21%);
+    font-weight: 700;
 }
 
-.attribution a {
-    color: gray;
+.attribution__link {
+    color: hsl(0, 0%, 21%);
     transition: color 100ms;
 }
 
-.attribution a:hover {
-    color: #000;
+.attribution__link:hover {
+    color: hsl(216, 95%, 58%);
 }
