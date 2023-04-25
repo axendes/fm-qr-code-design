@@ -70,13 +70,16 @@
     inset: auto 0 1rem 0;
     font-size: 1rem;
     text-align: center;
-    color: hsl(0, 0%, 21%);
-    font-weight: 700;
+    font-weight: 400;
+    color: var(--dark-blue);
+    cursor: default;
 }
 
 .attribution__link {
-    color: hsl(0, 0%, 21%);
-    transition: color 100ms;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--dark-blue);
+    transition: color 200ms;
 }
 
 .attribution__link:hover {
