@@ -51,6 +51,7 @@
 
     cursor: pointer;
     transition: transform 300ms, box-shadow 300ms;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .main:hover {
